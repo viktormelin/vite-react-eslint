@@ -7,5 +7,19 @@
   "endOfLine": "auto",
   "quoteProps": "consistent",
   "proseWrap": "never",
-  "trailingComma": "es5"
+  "trailingComma": "es5",
+  "importOrder": [
+    "^react",
+    "^\\w",
+    "/types/",
+    "/hooks/",
+    "/store/",
+    "/views/",
+    "/components/",
+    "/assets/",
+    "^./",
+    "css$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }
